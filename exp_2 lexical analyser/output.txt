@@ -1,0 +1,97 @@
+Line #1
+Code: #include <stdio.h>
+Information retrieved:
+Header#include
+Header File is:  <stdio.h> Standard Input Output Header
+====================================================   
+Line #2
+Code: int main()
+Information retrieved:
+type is: Integer
+====================================================   
+Line #3
+Code: {
+Information retrieved:
+Blocked Statement Body Open
+====================================================   
+Line #4
+Code:     // this is just a comment tag
+Information retrieved:
+Comment Type: Single Line Comment
+====================================================   
+Line #5
+Code:     /* this is a multi line comment tag
+Information retrieved:
+Comment Type: Multiline Comment Start
+====================================================
+Line #6
+Code:     */
+Information retrieved:
+Comment Type: Multiline Comment End
+====================================================
+Line #7
+Code:     int i = 0;
+Information retrieved:
+type is: Integer
+Identifier: i
+Operator is: Assignment Operator
+Constant:0
+====================================================
+Line #8
+Code:     int a = 10;
+Information retrieved:
+type is: Integer
+Identifier: a
+Operator is: Assignment Operator
+Constant:10
+====================================================
+Line #9
+Code:     float ans = 1;
+Information retrieved:
+type is: Floating Point
+Identifier: ans
+Operator is: Assignment Operator
+Constant:1
+====================================================
+Line #10
+Code:     printf("The value of a is %d ",a);
+Information retrieved:
+Print or scan or loops: printf
+====================================================
+Line #11
+Code:     for(i;i<a;i++)
+Information retrieved:
+Print or scan or loops: for
+====================================================
+Line #12
+Code:     {
+Information retrieved:
+Blocked Statement Body Open
+====================================================
+Line #13
+Code:         ans = ans * i;
+Information retrieved:
+Operator is: Assignment Operator
+Operator is: Multiplication Operator
+====================================================
+Line #14
+Code:     }
+Information retrieved:
+Blocked Statement Body Closed
+====================================================
+Line #15
+Code:     printf("%d",ans);
+Information retrieved:
+Print or scan or loops: printf
+====================================================
+Line #16
+Code:     return 0;
+Information retrieved:
+keyword that returns a value from a block
+Constant:0
+====================================================
+Line #17
+Code: }
+Information retrieved:
+Blocked Statement Body Closed
+====================================================
